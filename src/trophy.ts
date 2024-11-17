@@ -241,7 +241,7 @@ export class TotalCommitTrophy extends Trophy {
   constructor(score: number) {
     const rankConditions = [
       new RankCondition(RANK.SSS, "God Committer", 500),
-      new RankCondition(RANK.SS, "Deep Committer", 150),
+      new RankCondition(RANK.SS, "Deep Committer", 300),
       new RankCondition(RANK.S, "Super Committer", 100),
       new RankCondition(RANK.AAA, "Ultra Committer", 75),
       new RankCondition(RANK.AA, "Hyper Committer", 50),
