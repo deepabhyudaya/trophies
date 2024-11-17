@@ -324,6 +324,6 @@ export class TotalRepositoryTrophy extends Trophy {
     super(0, rankConditions);
     this.title = "Repositories";
     this.filterTitles = ["Repo", "Repository", "Repositories"];
-    this.hidden = true;
+    
   }
 }
