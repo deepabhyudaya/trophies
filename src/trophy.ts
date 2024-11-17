@@ -321,7 +321,7 @@ export class TotalRepositoryTrophy extends Trophy {
       new RankCondition(RANK.B, "Middle Repo Creator", 3),
       new RankCondition(RANK.C, "First Repository", 1),
     ];
-    super(score, rankConditions);
+    super(0, rankConditions);
     this.title = "Repositories";
     this.filterTitles = ["Repo", "Repository", "Repositories"];
     this.hidden = true;
