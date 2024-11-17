@@ -303,7 +303,7 @@ export class TotalPullRequestTrophy extends Trophy {
       new RankCondition(RANK.B, "Middle Puller", 5),
       new RankCondition(RANK.C, "First Pull", 1),
     ];
-    super(score + 17, rankConditions);
+    super(score + 32, rankConditions);
     this.title = "PullRequest";
     this.filterTitles = ["PR", "PullRequest", "Pulls", "Puller"];
   }
